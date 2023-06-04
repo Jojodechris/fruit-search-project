@@ -1,0 +1,59 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  /* TODO */
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1833d455535469.5988c7707c540.png), url(https://cdn.pixabay.com/photo/2017/05/11/19/44/fresh-fruits-2305192_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: 40% , 100% ;
+  background-position: left top, right top ;
+  height: 1000%,1000%;
+}
+
+
+
+input {
+ /* TODO */
+}
+
+.search-container {
+ /* TODO */
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+ 
+}
+ul li {
+  /* TODO */
+}
+ul li:hover {
+  /* TODO */
+}
+
+input {
+   /* TODO */
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
