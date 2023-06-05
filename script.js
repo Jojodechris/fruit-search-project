@@ -49,7 +49,7 @@ function useSuggestion(e) {
 input.addEventListener('keyup', searchHandler);
 suggestions.addEventListener('click', useSuggestion);
 suggestions.addEventListener('mouseenter', (e) => {
-e.target.style.backgroundColor = "yellow";
+e.target.style.backgroundColor = linear-gradient ('#e66465', '#9198e5');
 });
 	console.log('Mouse entered!');
 suggestions.addEventListener('mouseleave', (e) => {
