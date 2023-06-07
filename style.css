@@ -11,16 +11,35 @@
  border-radius: .1cm;
 }
 
-body {
-
-  background: linear-gradient(#e66465, #9198e5)
-  /* TODO */
+/* body {
+  background: linear-gradient(#e66465, #9198e5);
+  /* TODO
   /* background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1833d455535469.5988c7707c540.png), url(https://cdn.pixabay.com/photo/2017/05/11/19/44/fresh-fruits-2305192_1280.jpg), url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1833d455535469.5988c7707c540.png); */
   /* background-repeat: repeat , no-repeat;
   background-size: 10%, 100%, 10%;
   background-position: left top, right top;
   height: 1000% 1000% 1000%; */
+/* } */ 
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 
 
 
@@ -37,7 +56,8 @@ margin: 0 auto;
 text-align: center;
 padding: 50px;
 top: 100px;
-background-color: #9198e5;
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+/* background-color: #9198e5; */
 }
 .search-container input,
 .search-container .suggestions {
@@ -65,7 +85,7 @@ ul li {
 ul li:hover {
   /* TODO */
   cursor: pointer;
-  background-color: #9198e5;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
 
 input {
